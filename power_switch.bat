@@ -16,3 +16,23 @@ echo 2. High Performance
 echo 3. Power Saver
 echo 4. Exit
 echo.
+
+
+set /p choice="Enter your choice (1-4): "
+
+if "%choice%"=="1" goto balanced
+if "%choice%"=="2" goto high_performance
+if "%choice%"=="3" goto power_saver
+if "%choice%"=="4" goto end
+
+echo Invalid choice. Please try again.
+pause
+goto menu
+
+:balanced
+
+:high_performance
+
+:power_saver
+
+:end
