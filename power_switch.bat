@@ -30,6 +30,10 @@ pause
 goto menu
 
 :balanced
+powercfg /setactive 381b4222-f694-41f0-9685-ff5bb260df2e
+echo Switched to Balanced power plan.
+pause
+goto menu
 
 :high_performance
 
