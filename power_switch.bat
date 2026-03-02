@@ -30,19 +30,19 @@ pause
 goto menu
 
 :balanced
-powercfg /setactive 381b4222-f694-41f0-9685-ff5bb260df2e
+powercfg /setactive SCHEME_BALANCED
 echo Switched to Balanced power plan.
 pause
 goto menu
 
 :high_performance
-powercfg /setactive 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
+powercfg /setactive SCHEME_MIN
 echo Switched to High Performance power plan.
 pause
 goto menu
 
 :power_saver
-powercfg /setactive a1841308-3541-4b0c-bd46-5e2d46e0fad1
+powercfg /setactive SCHEME_MAX
 echo Switched to Power Saver power plan.
 pause
 goto menu
