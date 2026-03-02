@@ -48,3 +48,6 @@ pause
 goto menu
 
 :end
+echo Exiting...
+endlocal
+exit /b 0
