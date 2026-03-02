@@ -42,5 +42,9 @@ pause
 goto menu
 
 :power_saver
+powercfg /setactive a1841308-3541-4b0c-bd46-5e2d46e0fad1
+echo Switched to Power Saver power plan.
+pause
+goto menu
 
 :end
