@@ -16,7 +16,8 @@ echo 2. High Performance
 echo 3. Power Saver
 echo 4. Exit
 echo.
-
+echo Developed By Shashika Dayarathna
+echo GitHub: https://github.com/shashik-mora
 
 set /p choice="Enter your choice (1-4): "
 
