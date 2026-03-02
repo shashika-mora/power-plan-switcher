@@ -1,5 +1,7 @@
 # Windows Power Plan Switcher
 
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows10&logoColor=white) ![Batch Script](https://img.shields.io/badge/Batch-4D4D4D?style=for-the-badge&logo=windows-terminal&logoColor=white)
+
 A simple, interactive Windows Batch script (`.bat`) to quickly check your active power plan and switch between the standard Windows power profiles.
 
 ## Features
@@ -22,4 +24,6 @@ A simple, interactive Windows Batch script (`.bat`) to quickly check your active
 
 ## Credits
 - Developed by Shashika Dayarathna
+- Department of Computer Sicence and Engineering
+- University of Moratuwa
 - GitHub: [https://github.com/shashik-mora](https://github.com/shashik-mora)
