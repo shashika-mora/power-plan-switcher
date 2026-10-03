@@ -7,16 +7,20 @@ A simple, interactive Windows Batch script (`.bat`) to quickly check your active
 ## Features
 - **View Active Plan**: Displays the currently active Windows power scheme upon startup.
 - **Switch Plans**: Choose between standard and reliable power settings:
-  1. Balanced
-  2. High Performance
-  3. Power Saver
+  - `1`: Balanced
+  - `2`: High Performance
+  - `3`: Power Saver
+- **About Maintainer**: Select `A` to view maintainer details and university affiliation with ASCII branding.
+- **Interactive Navigation**: Seamlessly loops between menu actions until you choose `E` to exit.
 
 ## How to Use
 1. Download or clone this repository to your Windows machine.
-2. Double-click on `power_switch.bat` to launch the interactive menu.
-3. Type the number corresponding to your desired power plan and press `Enter`.
-4. The script will switch your power plan and wait for you to acknowledge the change before returning to the main menu. 
-5. Select option `4` to exit the application.
+2. Double-click on `power_switch.bat` (or execute it in Command Prompt / Windows Terminal).
+3. Enter your choice:
+   - Type `1`, `2`, or `3` to switch power plans.
+   - Type `A` to view the About screen.
+   - Type `E` to exit the application.
+4. The script will apply your selection, confirm the result, and return to the main menu.
 
 ## Requirements
 - Windows Operating System
@@ -24,6 +28,6 @@ A simple, interactive Windows Batch script (`.bat`) to quickly check your active
 
 ## Credits
 - Developed by Shashika Dayarathna
-- Department of Computer Sicence and Engineering
+- Department of Computer Science and Engineering
 - University of Moratuwa
 - GitHub: [https://github.com/shashik-mora](https://github.com/shashik-mora)
